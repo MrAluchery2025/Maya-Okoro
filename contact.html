@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Maya Okoro</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Open Sans', sans-serif; }
+    h1, h2, h3 { font-family: 'Playfair Display', serif; }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+  <!-- Navbar -->
+  <header class="bg-white shadow-md fixed top-0 left-0 w-full z-50">
+    <div class="max-w-7xl mx-auto px-4 md:px-8 flex justify-between items-center h-16">
+      <div class="text-xl font-bold text-green-700">Maya Okoro</div>
+      <nav class="hidden md:flex space-x-6">
+        <a href="index.html" class="text-gray-700 hover:text-green-700">Home</a>
+        <a href="about.html" class="text-gray-700 hover:text-green-700">About</a>
+        <a href="collections.html" class="text-gray-700 hover:text-green-700">Collections</a>
+        <a href="contact.html" class="text-gray-700 hover:text-green-700">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="pt-24 px-4 md:px-16 max-w-3xl mx-auto">
+    <h1 class="text-4xl md:text-5xl font-bold mb-6 text-green-700">Contact Maya</h1>
+    <p class="text-lg mb-8">
+      We'd love to hear from you! Whether you're interested in collaborations, press inquiries, or have any questions about Maya's collections, feel free to reach out using the form below.
+    </p>
+
+    <form class="space-y-6">
+      <div>
+        <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+        <input type="text" id="name" name="name" required class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 focus:ring-green-500 focus:border-green-500" />
+      </div>
+      <div>
+        <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+        <input type="email" id="email" name="email" required class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 focus:ring-green-500 focus:border-green-500" />
+      </div>
+      <div>
+        <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+        <textarea id="message" name="message" rows="5" required class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 focus:ring-green-500 focus:border-green-500"></textarea>
+      </div>
+      <button type="submit" class="bg-green-700 text-white px-6 py-2 rounded-md hover:bg-green-800">Send Message</button>
+    </form>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-8 text-center mt-16">
+    <div class="mb-4">
+      <a href="index.html" class="mx-2 hover:underline">Home</a>
+      <a href="about.html" class="mx-2 hover:underline">About</a>
+      <a href="collections.html" class="mx-2 hover:underline">Collections</a>
+      <a href="contact.html" class="mx-2 hover:underline">Contact</a>
+    </div>
+    <p class="text-gray-400 text-sm">&copy; 2025 Maya Okoro. All rights reserved.</p>
+  </footer>
+</body>
+</html>
